@@ -1,0 +1,407 @@
+/* styles.css */
+
+/* Apply a 3D effect to the header */
+header {
+    background-color: #f2f2f2;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+
+/* Add a 3D effect to the navigation menu */
+nav {
+    background-color: #333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+
+/* Apply 3D effect to cake listings */
+.cake {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.cake:hover {
+    transform: translateY(-5px);
+}
+
+/* Style the category cards with a 3D effect */
+.category-card {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Add a 3D button effect */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Apply a 3D effect to the footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+
+nav {
+    background-color: #444;
+    padding: 0.5em;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.cake-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.cake {
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 250px;
+    position: relative;
+}
+
+.cake img {
+    max-width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+    color: white;
+}
+
+button {
+    background-color: #dc9176;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #dc9176;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.categories {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.categories h2 {
+    color: #333;
+}
+
+.banner {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 100px 0;
+}
+
+.banner2 {
+    background-image: url('banner2.png');
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Updated styles for header */
+header {
+    background-color: #f2f2f2;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* Align items horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+/* Center align the h1 in the header */
+header h1 {
+    text-align: center;
+    font-style:oblique;
+    padding-right: 40%;
+}
+
+/* Updated styles for icons */
+.icons {
+    display: flex;
+    align-items: center; /* Vertically align items */
+}
+
+.icons a {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.account-icon {
+    margin-right: 30px; /* Add margin to separate the icon from the label */
+}
+
+/* Style the label for user_firstname */
+label[for="user_firstname"] {
+    color: rgb(0, 0, 0);
+    font-size: 16px; /* Adjust font size as needed */
+    margin-right: 30px; /* Add margin to separate the label from the icon */
+}
+
+/* Position the cart icon on the right corner */
+.cart-icon {
+    margin-left: auto; /* Push the cart icon to the right */
+}
+
+/* Adjust margin as needed to separate the cart icon from the rest */
+
+
+
+
+
+.category-card {
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    width: 250px;
+}
+
+.category-card img {
+    max-width: 100%;
+}
+
+.category-link {
+    background-color: #ff7f50;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.category-card {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.category-card img {
+    max-width: 100%;
+}
+
+.category-card h3 {
+    margin-top: 10px;
+}
+
+
+/* Login Page */
+
+.login-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background-color: #f5f5f5;
+}
+
+.login-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+.login-container form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.login-container form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-container form button {
+    background-color: #ff7f50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-content h2 {
+    color: #333;
+}
+
+
+.login-content form label {
+    display: block;
+    margin-top: 10px;
+    color: #555;
+}
+
+.login-content form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-content form button {
+    background-color: #ff7f50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #444;
+    color: white;
+}
+
+
+/* Cart Pop-up */
+.cart-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.cart-content {
+    background: white;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+#cart-items {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+#cart-total {
+    font-weight: bold;
+}
+
+#close-cart-popup {
+    background: #ff7f50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}

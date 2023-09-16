@@ -1,0 +1,11 @@
+item_id,cake_name,cake_price,cake_description,cake_picture_path,quantity
+1,cake1,10,cake1 des,cakes/cake1.jpg,5
+2,Strawberry Dream ,12,Experience the sweetness of strawberries...,cakes/cake2.jpg,5
+3,Vanilla Elegance,11,A classic choice for every occasion...,cakes/cake3.jpg,5
+4,Red Velvet Delight,10,Experience the luxury of red velvet..,cakes/cake4.jpg,5
+5,Luscious Lemon Cake,12,Zesty and refreshing lemon flavor...,cakes/cake5.jpg,5
+6,Black Forest Fantasy,11,Rich layers of chocolate and cherries...,cakes/cake6.jpg,5
+7,Mango Tango,10,Taste the tropical goodness of mango...,cakes/cake7.jpg,5
+8,Coconut Paradise,12,Escape to a paradise of coconut flavor...,cakes/cake8.jpg,5
+9,Hazelnut Indulgence,11,Experience the nutty delight of hazelnut...,cakes/cake9.jpg,5
+10,Caramel Bliss,11,Indulge in the rich flavors of caramel...,cakes/cake10.jpg,5
